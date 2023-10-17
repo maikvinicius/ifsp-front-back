@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <title>IFSP</title>
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
+  <link href="css/styles.css" rel="stylesheet" />
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container px-lg-5">
+      <a class="navbar-brand" href="#!">IFSP</a>
+    </div>
+  </nav>
+
+  <header class="py-5">
+    <div class="container px-lg-5">
+      <div class="p-4 p-lg-5 bg-light rounded-3 text-center">
+        <div class="m-4 m-lg-5">
+          <h1 class="display-5 fw-bold">Seja bem-vindo(a)!</h1>
+          <p class="fs-4">
+            Sistema de cadastro de usuários
+          </p>
+          <a class="btn btn-primary btn-lg" href="form.html">
+            Novo usuário
+          </a>
+          <a class="btn btn-warning btn-lg" onclick="localStorage.clear();window.location.reload();">
+            Limpar usuários
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="pt-4">
+    <div class="container px-lg-5">
+      <div class="row gx-lg-5 d-flex justify-content-center" id="usuarios"></div>
+    </div>
+  </section>
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">Copyright &copy; IFSP 2023</p>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/scripts.js"></script>
+</body>
+
+</html>
